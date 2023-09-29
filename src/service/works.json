@@ -1,0 +1,17 @@
+[
+  {
+    "src": "../public/images/Icon.png",
+    "title": "Setup Your wallet",
+    "paragraph": "Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner."
+  },
+  {
+    "src": "../public/images/Icon (1).png",
+    "title": "Create Collection",
+    "paragraph": "Upload your work and setup your collection. Add a description, social links and floor price."
+  },
+  {
+    "src": "../public/images/Icon (2).png",
+    "title": "Start Earning",
+    "paragraph": "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
+  }
+]

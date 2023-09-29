@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "src": "../public/images/dog.jpg",
+    "name": "Maulana_DST",
+    "total_sales": "34.53 ETH"
+  },
+  {
+    "id": 2,
+    "src": "../public/images/vin.jpg",
+    "name": "Shin_Sr",
+    "total_sales": "30.23 ETH"
+  },
+  {
+    "id": 3,
+    "src": "../public/images/robo.jpg",
+    "name": "TokyoShrine",
+    "total_sales": "29.53 ETH"
+  },
+  {
+    "id": 4,
+    "src": "../public/images/cyber.jpg",
+    "name": "CyberNine91",
+    "total_sales": "25.16 ETH"
+  },
+  {
+    "id": 5,
+    "src": "../public/images/shinigami.jpg",
+    "name": "NightShite",
+    "total_sales": "24.73 ETH"
+  },
+  {
+    "id": 6,
+    "src": "../public/images/cat2.jpg",
+    "name": "Reps-88",
+    "total_sales": "22.22 ETH"
+  },
+  {
+    "id": 7,
+    "src": "../public/images/sugar.jpg",
+    "name": "Child`Ssc",
+    "total_sales": "21.01 ETH"
+  },
+  {
+    "id": 8,
+    "src": "../public/images/dog-dark.jpg",
+    "name": "RensPbs",
+    "total_sales": "19.76 ETH"
+  }
+]

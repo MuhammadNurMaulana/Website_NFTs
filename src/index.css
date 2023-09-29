@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:wght@400;600&display=swap");
+
+@layer base {
+  .font-workSans {
+    font-family: "Work Sans", sans-serif;
+  }
+  .font-spaceMono {
+    font-family: "Space Mono", monospace;
+  }
+}
+
+* {
+  @apply box-border;
+}
