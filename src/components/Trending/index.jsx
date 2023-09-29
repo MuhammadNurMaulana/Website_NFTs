@@ -1,14 +1,12 @@
 import React from "react";
 import { Container } from "../Container/Container";
 import trending from "../../service/trending.json";
+import { TrendingStylesHeader } from "./Trending.styles";
 
 export const Trending = () => {
   return (
     <Container>
-      <div>
-        <h2 className="font-workSans font-semibold text-2xl md:text-3xl">Trending Collection</h2>
-        <p className="font-workSans text-sm md:text-xl mt-2">Checkout our weekly updated trending collection</p>
-      </div>
+      <TrendingStylesHeader />
 
       <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-4 mt-8">
         {trending.map((item, index) => (

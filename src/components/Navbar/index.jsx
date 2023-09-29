@@ -24,10 +24,7 @@ export const Navbar = () => {
 
   return (
     <NavbarStyles>
-      <div className="flex items-center gap-[10px] text-sm md:text-xl">
-        <img src="../public/images/logo.jpg" alt="My Logo" className="w-[35px] h-[35px] rounded-full" />
-        <h1 className="font-spaceMono text-lg md:text-xl">RireNFTs MarketPlace</h1>
-      </div>
+      <NavbarStyles.Header />
 
       <NavbarStyles.Menu showNav={showNav}>
         {navLink.map((link, index) => (
@@ -35,15 +32,16 @@ export const Navbar = () => {
             {link.label}
           </NavLink>
         ))}
-        <button className="flex items-center gap-3 px-[30px] py-3 bg-secondary rounded-[20px] font-semibold text-sm md:text-lg">
+
+        <NavbarStyles.Button classname={`flex items-center gap-3 px-[30px] py-3 bg-secondary rounded-[20px] font-semibold text-sm md:text-lg`}>
           <FaUserAstronaut className="text-lg md:text-xl" />
           <p>Sign Up</p>
-        </button>
+        </NavbarStyles.Button>
       </NavbarStyles.Menu>
 
-      <button className="lg:hidden" onClick={toggleNav}>
+      <NavbarStyles.Button classname={`lg:hidden`} onclick={toggleNav}>
         <GiHamburger className="text-lg" />
-      </button>
+      </NavbarStyles.Button>
     </NavbarStyles>
   );
 };
