@@ -35,3 +35,8 @@ Before you begin, make sure you npm (Node Package Manager) installed on your sys
    npm run dev
    ```
 2. Access the application in your browser at http://localhost:5173.
+
+
+## Contributing
+
+Contributions to this project are welcome and encouraged! If you find any bugs, want to add new features, or improve the existing ones, feel free to open issues and pull requests.
