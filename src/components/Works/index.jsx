@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "../Container/Container";
 import works from "../../service/works.json";
+import { WorksHeader } from "./Works.styles";
 
 export const Works = () => {
   return (
     <Container>
-      <h2 className="font-workSans font-semibold text-2xl md:text-3xl">How It Works</h2>
-      <p className="font-workSans text-sm md:text-xl">Find Out How To Get Started</p>
+      <WorksHeader />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-4 mt-8">
         {works.map((work, index) => (
