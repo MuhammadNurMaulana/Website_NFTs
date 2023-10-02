@@ -28,12 +28,12 @@ export const Navbar = () => {
 
       <NavbarStyles.Menu showNav={showNav}>
         {navLink.map((link, index) => (
-          <NavLink key={index} className={`px-[20px] py-3 font-semibold text-sm md:text-lg`}>
+          <NavLink to={link.path} key={index} className={`px-[20px] py-3 font-semibold text-sm md:text-lg`}>
             {link.label}
           </NavLink>
         ))}
 
-        <NavbarStyles.Button classname={`flex items-center gap-3 px-[30px] py-3 bg-secondary rounded-[20px] font-semibold text-sm md:text-lg`}>
+        <NavbarStyles.Button to={"/login"} classname={`flex items-center gap-3 px-[30px] py-3 bg-secondary rounded-[20px] font-semibold text-sm md:text-lg`}>
           <FaUserAstronaut className="text-lg md:text-xl" />
           <p>Sign Up</p>
         </NavbarStyles.Button>
