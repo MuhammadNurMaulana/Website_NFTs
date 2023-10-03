@@ -5,6 +5,7 @@ import babys from "../service/baby.json";
 import { Container } from "../components/Container/Container";
 import { SwiperSlide } from "swiper/react";
 import { SwiperJs } from "../swiper/Swiper";
+import beasts from "../service/beast.json";
 export const Market = () => {
   return (
     <div className="bg-[#2B2B2B] text-white box-border">
@@ -20,6 +21,22 @@ export const Market = () => {
                 <div className="flex justify-between items-center">
                   <p>Price</p>
                   <p className="font-spaceMono">{baby.price}</p>
+                </div>
+                <button className="border border-secondary py-2 px-4 rounded-md hover:bg-secondary transition-all duration-200 hover:duration-300">Buy Now</button>
+              </div>
+            </SwiperSlide>
+          ))}
+        </SwiperJs>
+        <h1>Ancient Beast NFTs</h1>
+        <SwiperJs>
+          {beasts.map((beast, index) => (
+            <SwiperSlide key={index} className="bg-[#3B3B3B] rounded-xl overflow-hidden ml-8">
+              <img src={beast.src} />
+              <div className="py-3 px-5 flex flex-col gap-4">
+                <h1 className="font-workSans font-semibold text-xl">{beast.title}</h1>
+                <div className="flex justify-between items-center">
+                  <p>Price</p>
+                  <p className="font-spaceMono">{beast.price}</p>
                 </div>
                 <button className="border border-secondary py-2 px-4 rounded-md hover:bg-secondary transition-all duration-200 hover:duration-300">Buy Now</button>
               </div>
