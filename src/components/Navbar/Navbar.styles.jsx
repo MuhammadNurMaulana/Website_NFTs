@@ -19,11 +19,9 @@ const Menu = (props) => {
   return <div className={` ${showNav ? "flex flex-col absolute top-full bg-[#2B2B2B] text-center py-4 px-8 gap-2" : "hidden lg:flex gap-[10px] lg:relative font-workSans"}`}>{children}</div>;
 };
 
-const Button = ({ children, classname, to }) => {
+const Button = ({ children, classname, to, onclick }) => {
   return (
-    <Link className={classname} to={to}>
-      {/* <FaUserAstronaut className="text-lg md:text-xl" />
-      <p>Sign Up</p> */}
+    <Link className={classname} to={to} onClick={onclick}>
       {children}
     </Link>
   );

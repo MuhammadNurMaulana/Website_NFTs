@@ -1,5 +1,6 @@
 import React from "react";
+import { FormHeader } from "../Form/FormHeader";
 
 export const Register = () => {
-  return <div>Register</div>;
+  return <FormHeader></FormHeader>;
 };

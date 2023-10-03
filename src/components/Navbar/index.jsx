@@ -20,6 +20,7 @@ export const Navbar = () => {
   ];
   const toggleNav = () => {
     setShowNav(!showNav);
+    console.log("showNav");
   };
 
   return (
