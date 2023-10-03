@@ -17,10 +17,10 @@ export const Magic = () => {
     },
   ];
   return (
-    <div className="bg-[url(../public/images/magic.jpg)] bg-cover bg-center h-[500px] flex flex-col lg:flex-row py-12 px-4 md:py-12 md:px-16 justify-between items-end md:items-start lg:items-end" data-aos="fade-up-left">
+    <div className="bg-[url(/images/magic.jpg)] bg-cover bg-center h-[500px] flex flex-col lg:flex-row py-12 px-4 md:py-12 md:px-16 justify-between items-end md:items-start lg:items-end" data-aos="fade-up-left">
       <div className="flex flex-col gap-4">
         <button className="flex gap-2 items-center py-2 px-4 bg-[#2B2B2B] rounded-xl max-w-max">
-          <img src="../public/images/sugar.jpg" alt="NFTs Cs" className="w-[30px] h-[30px] rounded-full" />
+          <img src="/images/sugar.jpg" alt="NFTs Cs" className="w-[30px] h-[30px] rounded-full" />
           <p className="font-spaceMono">Child`Ssc</p>
         </button>
 
