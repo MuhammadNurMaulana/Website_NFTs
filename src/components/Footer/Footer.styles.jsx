@@ -25,7 +25,7 @@ export const FooterHeader = () => {
         <h1 className="text-2xl font-semibold">Explore</h1>
         <Link to={"/marketplace"}>Marketplace</Link>
         <Link to={"/rankings"}>Rankings</Link>
-        <Link to={"/connect-wallet"}>Connect a wallet</Link>
+        <Link>Connect a wallet</Link>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-2xl font-semibold">Join Our Weekly Digest</h2>
