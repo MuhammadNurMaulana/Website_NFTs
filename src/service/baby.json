@@ -1,0 +1,47 @@
+[
+  {
+    "src": "../public/images/baby1.jpg",
+    "title": "Baby Ocean Lizard",
+    "price": "1 ETH"
+  },
+  {
+    "src": "../public/images/baby2.jpg",
+    "title": "Baby Dragon Ice King",
+    "price": "0.88 ETH"
+  },
+  {
+    "src": "../public/images/baby3.jpg",
+    "title": "Baby Fox Rainbox Light",
+    "price": "1.12 ETH"
+  },
+  {
+    "src": "../public/images/baby4.jpg",
+    "title": "Baby Lightning Purpocine",
+    "price": "1.2 ETH"
+  },
+  {
+    "src": "../public/images/baby5.jpg",
+    "title": "Baby Sword`Jade Rabbit Greed",
+    "price": "0.5 ETH"
+  },
+  {
+    "src": "../public/images/baby6.jpg",
+    "title": "Baby Dark Owl",
+    "price": "0.77 ETH"
+  },
+  {
+    "src": "../public/images/baby7.jpg",
+    "title": "Baby Dark Knight Dare`Devil",
+    "price": "0.34 ETH"
+  },
+  {
+    "src": "../public/images/baby8.jpg",
+    "title": "Baby Light Lizard Snake",
+    "price": "1.39 ETH"
+  },
+  {
+    "src": "../public/images/baby10.jpg",
+    "title": "Baby Fox White Mars",
+    "price": "1.5 ETH"
+  }
+]

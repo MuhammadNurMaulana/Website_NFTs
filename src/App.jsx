@@ -5,12 +5,16 @@ import { ForgotPassword } from "./components/Form/ForgotPassword";
 import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
 import { Market } from "./pages/Market";
+import { Rankings } from "./pages/Rankings";
+import { Wallet } from "./pages/Wallet";
 
 function App() {
   return (
     <Routes>
       <Route path="/" exact element={<Home />} />
       <Route path="/marketplace" element={<Market />} />
+      <Route path="/rankings" element={<Rankings />} />
+      <Route path="/connect-wallet" element={<Wallet />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="*" element={<Error404Page />} />

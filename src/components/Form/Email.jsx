@@ -9,7 +9,7 @@ export const Email = () => {
       <Label htmlFor={"email"}>
         <MdMail />
       </Label>
-      <Input type={"email"} id={"email"} placeholder={"Enter your Email"} />
+      <Input type={"email"} id={"email"} placeholder={"Enter your Email"} name={"email"} />
     </div>
   );
 };

@@ -9,7 +9,7 @@ export const Username = ({ placeholder, htmlFor, id }) => {
       <Label htmlFor={htmlFor}>
         <FaUser />
       </Label>
-      <Input type="text" id={id} placeholder={placeholder} />
+      <Input type="text" id={id} placeholder={placeholder} name={"username"} />
     </div>
   );
 };

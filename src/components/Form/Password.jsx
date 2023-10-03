@@ -10,7 +10,7 @@ export const Password = ({ children, placeholder, htmlFor, id }) => {
         <Label htmlFor={htmlFor}>
           <TbCircleKey />
         </Label>
-        <Input type="password" id={id} placeholder={placeholder} />
+        <Input type="password" id={id} placeholder={placeholder} name={"password"} />
       </div>
       {children}
     </div>
