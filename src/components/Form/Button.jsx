@@ -1,5 +1,5 @@
 import React from "react";
 
 export const ButtonForm = ({ children }) => {
-  return <button className="w-[50%] mt-2 p-2 bg-red-500 rounded-lg text-xl">{children}</button>;
+  return <div className="cursor-pointer border border-secondary rounded-lg py-3 text-center text-xl font-spaceMono hover:bg-secondary transition-all duration-300 hover:duration-300 mb-3">{children}</div>;
 };

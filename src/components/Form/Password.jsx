@@ -1,16 +1,16 @@
 import React from "react";
 import { Label } from "./Label";
-import { HiKey } from "react-icons/hi2";
+import { TbCircleKey } from "react-icons/tb";
 import { Input } from "./Input";
 
-export const Password = ({ children }) => {
+export const Password = ({ children, placeholder, htmlFor, id }) => {
   return (
     <div className="py-2 px-3 rounded-lg bg-[#2B2B2B] border border-secondary flex justify-between text-white items-center mb-4">
       <div className="flex items-center gap-2">
-        <Label htmlFor="password">
-          <HiKey />
+        <Label htmlFor={htmlFor}>
+          <TbCircleKey />
         </Label>
-        <Input type="password" id="password" placeholder="Password" />
+        <Input type="password" id={id} placeholder={placeholder} />
       </div>
       {children}
     </div>
