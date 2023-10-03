@@ -12,7 +12,7 @@ export const Login = () => {
     document.title = "Rire NFTs | Login";
   }, []);
   return (
-    <FormHeader src={"../public/images/baby-fox.jpg"}>
+    <FormHeader src={"/images/baby-fox.jpg"}>
       <form className="md:w-[85%] lg:w-[70%]">
         <h1 className="font-workSans font-semibold text-2xl lg:text-4xl mb-6">Welcome Back</h1>
         <Username placeholder={"Username"} id={"username"} htmlFor={"username"} />

@@ -8,7 +8,7 @@ export const ForgotPassword = () => {
     document.title = "Rire NFTs | Forgot-Password";
   }, []);
   return (
-    <FormHeader src={"../public/images/turtle.jpg"}>
+    <FormHeader src={"/images/turtle.jpg"}>
       <div className="w-full flex justify-center items-center">
         <form>
           <h1 className="font-workSans font-semibold text-2xl lg:text-4xl mb-12">Forgot Password?</h1>

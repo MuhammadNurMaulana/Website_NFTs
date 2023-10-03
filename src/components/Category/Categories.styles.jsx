@@ -9,42 +9,42 @@ import { MdSportsVolleyball } from "react-icons/md";
 export const CategoriesStyles = () => {
   const categories = [
     {
-      src: "../public/images/art.jpg",
+      src: "/images/art.jpg",
       name: "Art",
       icons: <BiPaint />,
     },
     {
-      src: "../public/images/city.jpg",
+      src: "/images/city.jpg",
       name: "Collectibles",
       icons: <LiaSwatchbookSolid />,
     },
     {
-      src: "../public/images/space.jpg",
+      src: "/images/space.jpg",
       name: "Music",
       icons: <IoMusicalNotesOutline />,
     },
     {
-      src: "../public/images/ship.jpg",
+      src: "/images/ship.jpg",
       name: "Potography",
       icons: <AiOutlineCamera />,
     },
     {
-      src: "../public/images/island.jpg",
+      src: "/images/island.jpg",
       name: "Video",
       icons: <BiVideo />,
     },
     {
-      src: "../public/images/mountain.jpg",
+      src: "/images/mountain.jpg",
       name: "Utility",
       icons: <GiPencilBrush />,
     },
     {
-      src: "../public/images/jupiter.jpg",
+      src: "/images/jupiter.jpg",
       name: "Sport",
       icons: <MdSportsVolleyball />,
     },
     {
-      src: "../public/images/village-cave.jpg",
+      src: "/images/village-cave.jpg",
       name: "Victual Words",
       icons: <TiWorld />,
     },

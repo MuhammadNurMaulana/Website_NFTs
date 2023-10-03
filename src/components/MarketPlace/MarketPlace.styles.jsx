@@ -50,11 +50,11 @@ const Footer = ({ nameTitle, nameParagraph }) => {
   return (
     <div className="w-full md:w-1/2 flex justify-end" data-aos="fade-left">
       <div className="rounded-2xl md:rounded-3xl overflow-hidden">
-        <img src="../public/images/neon.jpg" alt="neon-retro" className="w-full" />
+        <img src="/images/neon.jpg" alt="neon-retro" className="w-full" />
         <div className="py-4 px-6 bg-[#3B3B3B]">
           <h4 className="font-workSans font-semibold text-lg"> {nameTitle} </h4>
           <div className="flex gap-2 items-center mt-2">
-            <img src="../public/images/dog.jpg" alt="dog" className="w-[30px] h-[30px] rounded-full" />
+            <img src="/images/dog.jpg" alt="dog" className="w-[30px] h-[30px] rounded-full" />
             <p className="font-spaceMono text-sm md:text-lg"> {nameParagraph} </p>
           </div>
         </div>

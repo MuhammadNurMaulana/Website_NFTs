@@ -7,7 +7,7 @@ export const Weekly = () => {
   return (
     <Container>
       <WeeklyStyles>
-        <img src="../public/images/dark-fenrir.jpg" alt="fenrir" className="w-full md:w-[40%] lg:w-[60%] rounded-2xl" />
+        <img src="/images/dark-fenrir.jpg" alt="fenrir" className="w-full md:w-[40%] lg:w-[60%] rounded-2xl" />
 
         <WeeklyStyles.Footer />
       </WeeklyStyles>
