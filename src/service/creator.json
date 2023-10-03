@@ -3,48 +3,64 @@
     "id": 1,
     "src": "../public/images/dog.jpg",
     "name": "Maulana_DST",
-    "total_sales": "150.53 ETH"
+    "total_sales": "150.53 ETH",
+    "total_earn": "359.78 ETH",
+    "high_bid": "25.44 ETH"
   },
   {
     "id": 2,
     "src": "../public/images/vin.jpg",
     "name": "Shin_Sr",
-    "total_sales": "130.23 ETH"
+    "total_sales": "130.23 ETH",
+    "total_earn": "280.18 ETH",
+    "high_bid": "23.44 ETH"
   },
   {
     "id": 3,
     "src": "../public/images/robo.jpg",
     "name": "TokyoShrine",
-    "total_sales": "112.53 ETH"
+    "total_sales": "112.53 ETH",
+    "total_earn": "278.00 ETH",
+    "high_bid": "22.90 ETH"
   },
   {
     "id": 4,
     "src": "../public/images/cyber.jpg",
     "name": "CyberNine91",
-    "total_sales": "102.16 ETH"
+    "total_sales": "102.16 ETH",
+    "total_earn": "277.77 ETH",
+    "high_bid": "27.06 ETH"
   },
   {
     "id": 5,
     "src": "../public/images/shinigami.jpg",
     "name": "NightShite",
-    "total_sales": "97.73 ETH"
+    "total_sales": "97.73 ETH",
+    "total_earn": "275.62 ETH",
+    "high_bid": "30.21 ETH"
   },
   {
     "id": 6,
     "src": "../public/images/cat2.jpg",
     "name": "Reps-88",
-    "total_sales": "80.22 ETH"
+    "total_sales": "80.22 ETH",
+    "total_earn": "256.90 ETH",
+    "high_bid": "32.16 ETH"
   },
   {
     "id": 7,
     "src": "../public/images/sugar.jpg",
     "name": "Child`Ssc",
-    "total_sales": "78.01 ETH"
+    "total_sales": "78.01 ETH",
+    "total_earn": "248.00 ETH",
+    "high_bid": "14.82 ETH"
   },
   {
     "id": 8,
     "src": "../public/images/dog-dark.jpg",
     "name": "RensPbs",
-    "total_sales": "77.76 ETH"
+    "total_sales": "77.76 ETH",
+    "total_earn": "229.53 ETH",
+    "high_bid": "40.10 ETH"
   }
 ]

@@ -18,7 +18,6 @@ export const Navbar = () => {
     },
     {
       label: "Connect a wallet",
-      path: "/connect-wallet",
     },
   ];
   const toggleNav = () => {
