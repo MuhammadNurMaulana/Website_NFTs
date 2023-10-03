@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MarketPlace } from "../components/MarketPlace";
 import { Navbar } from "../components/Navbar";
 import { Trending } from "../components/Trending";
@@ -11,6 +11,9 @@ import { Weekly } from "../components/Weekly";
 import { Footer } from "../components/Footer";
 
 export const Home = () => {
+  useEffect(() => {
+    document.title = "Rire NFTs | Home";
+  });
   return (
     <div className="bg-[#2B2B2B] text-white box-border">
       <Navbar />

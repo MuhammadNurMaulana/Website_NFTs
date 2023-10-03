@@ -1,5 +1,6 @@
 import React from "react";
 import { FaDiscord, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const FooterHeader = () => {
   return (
@@ -7,7 +8,9 @@ export const FooterHeader = () => {
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-[10px] text-sm md:text-xl">
           <img src="../public/images/logo.jpg" alt="My Logo" className="w-[35px] h-[35px] rounded-full" />
-          <h1 className="font-spaceMono text-2xl md:text-3xl">RireNFTs Marketplace</h1>
+          <Link to={"/"} className="font-spaceMono text-2xl md:text-3xl">
+            RireNFTs Marketplace
+          </Link>
         </div>
         <p>NFT marketplace UI created with Anima for Figma.</p>
         <p>Join our community</p>
@@ -20,9 +23,9 @@ export const FooterHeader = () => {
       </div>
       <div className="flex flex-col gap-4">
         <h1 className="text-2xl font-semibold">Explore</h1>
-        <p>Marketplace</p>
-        <p>Rankings</p>
-        <p>Connect a wallet</p>
+        <Link to={"/marketplace"}>Marketplace</Link>
+        <Link to={"/rankings"}>Rankings</Link>
+        <Link to={"/connect-wallet"}>Connect a wallet</Link>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-2xl font-semibold">Join Our Weekly Digest</h2>
