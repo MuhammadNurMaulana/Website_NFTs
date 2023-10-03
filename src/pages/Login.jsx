@@ -1,11 +1,11 @@
-import { IoEyeOff } from "react-icons/io5";
-import { Link } from "react-router-dom";
-import { Password } from "../Form/Password";
-import { Username } from "../Form/Username";
-import { FormHeader } from "../Form/FormHeader";
-import { Remember } from "../Form/Remember";
-import { ButtonForm } from "../Form/Button";
 import { useEffect } from "react";
+import { FormHeader } from "../components/Form/FormHeader";
+import { Username } from "../components/Form/Username";
+import { Password } from "../components/Form/Password";
+import { IoEyeOff } from "react-icons/io5";
+import { ButtonForm } from "../components/Form/Button";
+import { Link } from "react-router-dom";
+import { Remember } from "../components/Form/Remember";
 
 export const Login = () => {
   useEffect(() => {

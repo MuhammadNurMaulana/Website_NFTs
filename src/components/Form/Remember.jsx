@@ -8,7 +8,9 @@ export const Remember = () => {
         <input type="checkbox" />
         <p className="md:text-sm lg:text-base">Remember Password</p>
       </div>
-      <Link className="hover:text-secondary transition-all duration-200 hover:duration-300 md:text-sm lg:text-base">Forgot Password</Link>
+      <Link to={"/forgot-password"} className="hover:text-secondary transition-all duration-200 hover:duration-300 md:text-sm lg:text-base">
+        Forgot Password
+      </Link>
     </div>
   );
 };

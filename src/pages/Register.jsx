@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import { FormHeader } from "../Form/FormHeader";
-import { Username } from "../Form/Username";
-import { Email } from "../Form/Email";
-import { Password } from "../Form/Password";
+import { useEffect } from "react";
+import { FormHeader } from "../components/Form/FormHeader";
+import { Username } from "../components/Form/Username";
+import { Email } from "../components/Form/Email";
+import { Password } from "../components/Form/Password";
+import { Remember } from "../components/Form/Remember";
+import { ButtonForm } from "../components/Form/Button";
 import { Link } from "react-router-dom";
-import { Remember } from "../Form/Remember";
-import { ButtonForm } from "../Form/Button";
 
 export const Register = () => {
   useEffect(() => {

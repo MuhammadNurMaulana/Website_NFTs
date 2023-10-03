@@ -10,6 +10,7 @@ export const Navbar = () => {
   const navLink = [
     {
       label: "Marketplace",
+      path: "/marketplace",
     },
     {
       label: "Rankings",
@@ -34,7 +35,7 @@ export const Navbar = () => {
           </NavLink>
         ))}
 
-        <NavbarStyles.Button to={"/login"} classname={`flex items-center gap-3 px-[30px] py-3 bg-secondary rounded-[20px] font-semibold text-sm md:text-lg`}>
+        <NavbarStyles.Button to={"/register"} classname={`flex items-center gap-3 px-[30px] py-3 bg-secondary rounded-[20px] font-semibold text-sm md:text-lg`}>
           <FaUserAstronaut className="text-lg md:text-xl" />
           <p>Sign Up</p>
         </NavbarStyles.Button>
