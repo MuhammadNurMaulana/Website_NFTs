@@ -1,47 +1,47 @@
 [
   {
-    "src": "../public/images/panda.jpg",
+    "src": "/images/panda.jpg",
     "image": [
       {
-        "link": "../public/images/tiger.jpg"
+        "link": "/images/tiger.jpg"
       },
       {
-        "link": "../public/images/cat.jpg"
+        "link": "/images/cat.jpg"
       }
     ],
     "value": "1025+",
     "title": "DSGN Animals",
-    "src2": "../public/images/vin.jpg",
+    "src2": "/images/vin.jpg",
     "name": "Shin_Sr"
   },
   {
-    "src": "../public/images/baby-dragon.jpg",
+    "src": "/images/baby-dragon.jpg",
     "image": [
       {
-        "link": "../public/images/mithical-dragon.jpg"
+        "link": "/images/mithical-dragon.jpg"
       },
       {
-        "link": "../public/images/age-dragon.webp"
+        "link": "/images/age-dragon.webp"
       }
     ],
     "value": "1025+",
     "title": "Mythical Beast",
-    "src2": "../public/images/robo.jpg",
+    "src2": "/images/robo.jpg",
     "name": "TokyoShrine"
   },
   {
-    "src": "../public/images/magic-cat.jpg",
+    "src": "/images/magic-cat.jpg",
     "image": [
       {
-        "link": "../public/images/snow-cat.jpg"
+        "link": "/images/snow-cat.jpg"
       },
       {
-        "link": "../public/images/pueple-cat.jpg"
+        "link": "/images/pueple-cat.jpg"
       }
     ],
     "value": "1025+",
     "title": "Magic Animals",
-    "src2": "../public/images/dog.jpg",
+    "src2": "/images/dog.jpg",
     "name": "Maulana_DST"
   }
 ]

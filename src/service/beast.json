@@ -1,36 +1,36 @@
 [
   {
-    "src": "../public/images/beast1.jpg",
+    "src": "/images/beast1.jpg",
     "title": "Greed Blue Dragon",
     "price": "1.9 ETH"
   },
   {
-    "src": "../public/images/beast2.jpg",
+    "src": "/images/beast2.jpg",
     "title": "Dark Elves Fox",
     "price": "2 ETH"
   },
   {
-    "src": "../public/images/beast3.jpg",
+    "src": "/images/beast3.jpg",
     "title": "Sky Mithical Naraca",
     "price": "0.5 ETH"
   },
   {
-    "src": "../public/images/beast4.jpg",
+    "src": "/images/beast4.jpg",
     "title": "Foxes Blue Energy",
     "price": "1.72 ETH"
   },
   {
-    "src": "../public/images/beast5.jpg",
+    "src": "/images/beast5.jpg",
     "title": "Fire Snake Ancient",
     "price": "1.2 ETH"
   },
   {
-    "src": "../public/images/beast6.jpg",
+    "src": "/images/beast6.jpg",
     "title": "Dark Spesies Jade Moon",
     "price": "2.1 ETH"
   },
   {
-    "src": "../public/images/beast7.jpg",
+    "src": "/images/beast7.jpg",
     "title": "Rainbow Dragon Earth King",
     "price": "4.12 ETH"
   }

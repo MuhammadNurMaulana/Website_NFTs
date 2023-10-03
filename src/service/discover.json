@@ -1,24 +1,24 @@
 [
   {
-    "src": "../public/images/car.jpg",
+    "src": "/images/car.jpg",
     "title": "Futuristic Car",
-    "images": "../public/images/cat2.jpg",
+    "images": "/images/cat2.jpg",
     "paragraph": "Reps-88",
     "price": "1.93 ETH",
     "highest_bid": "0.39"
   },
   {
-    "src": "../public/images/blue-dragon.jpg",
+    "src": "/images/blue-dragon.jpg",
     "title": "Blue Dragon",
-    "images": "../public/images/dog-dark.jpg",
+    "images": "/images/dog-dark.jpg",
     "paragraph": "RensPbs",
     "price": "1.42 ETH",
     "highest_bid": "0.33"
   },
   {
-    "src": "../public/images/snakee.jpg",
+    "src": "/images/snakee.jpg",
     "title": "One Headed Hydra",
-    "images": "../public/images/dog.jpg",
+    "images": "/images/dog.jpg",
     "paragraph": "Maulana_DST",
     "price": "2.30 ETH",
     "highest_bid": "0.66"

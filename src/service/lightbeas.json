@@ -1,32 +1,32 @@
 [
   {
-    "src": "../public/images/light-beast.jpg",
+    "src": "/images/light-beast.jpg",
     "title": "Light Jupiter One Hord",
     "price": "4.17 ETH"
   },
   {
-    "src": "../public/images/light-beast1.jpg",
+    "src": "/images/light-beast1.jpg",
     "title": "White King Dragon",
     "price": "5.21 ETH"
   },
   {
-    "src": "../public/images/light-beast2.jpg",
+    "src": "/images/light-beast2.jpg",
     "title": "Queen Moon Fox",
     "price": "2.77 ETH"
   },
   {
-    "src": "../public/images/light-beast3.jpg",
+    "src": "/images/light-beast3.jpg",
     "title": "Baby Queen Foxed Moon",
     "price": "7.12 ETH"
   },
   {
-    "src": "../public/images/light-beast4.jpg",
+    "src": "/images/light-beast4.jpg",
     "title": "Guard Own Library",
     "price": "2.22 ETH"
   },
 
   {
-    "src": "../public/images/light-beast5.jpg",
+    "src": "/images/light-beast5.jpg",
     "title": "Baby King Dragon Jade",
     "price": "8.18 ETH"
   }

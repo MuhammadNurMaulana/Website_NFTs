@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "src": "../public/images/dog.jpg",
+    "src": "/images/dog.jpg",
     "name": "Maulana_DST",
     "total_sales": "150.53 ETH",
     "total_earn": "359.78 ETH",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "src": "../public/images/vin.jpg",
+    "src": "/images/vin.jpg",
     "name": "Shin_Sr",
     "total_sales": "130.23 ETH",
     "total_earn": "280.18 ETH",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "src": "../public/images/robo.jpg",
+    "src": "/images/robo.jpg",
     "name": "TokyoShrine",
     "total_sales": "112.53 ETH",
     "total_earn": "278.00 ETH",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "src": "../public/images/cyber.jpg",
+    "src": "/images/cyber.jpg",
     "name": "CyberNine91",
     "total_sales": "102.16 ETH",
     "total_earn": "277.77 ETH",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "src": "../public/images/shinigami.jpg",
+    "src": "/images/shinigami.jpg",
     "name": "NightShite",
     "total_sales": "97.73 ETH",
     "total_earn": "275.62 ETH",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "src": "../public/images/cat2.jpg",
+    "src": "/images/cat2.jpg",
     "name": "Reps-88",
     "total_sales": "80.22 ETH",
     "total_earn": "256.90 ETH",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "src": "../public/images/sugar.jpg",
+    "src": "/images/sugar.jpg",
     "name": "Child`Ssc",
     "total_sales": "78.01 ETH",
     "total_earn": "248.00 ETH",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "src": "../public/images/dog-dark.jpg",
+    "src": "/images/dog-dark.jpg",
     "name": "RensPbs",
     "total_sales": "77.76 ETH",
     "total_earn": "229.53 ETH",

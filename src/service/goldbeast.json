@@ -1,31 +1,31 @@
 [
   {
-    "src": "../public/images/golden-beast.jpg",
+    "src": "/images/golden-beast.jpg",
     "title": "Golden Ancient Foxex Emperor",
     "price": "10 ETH"
   },
   {
-    "src": "../public/images/golden-beast2.jpg",
+    "src": "/images/golden-beast2.jpg",
     "title": "Baby King Golden Lightning",
     "price": "6.77 ETH"
   },
   {
-    "src": "../public/images/golden-beast3.jpg",
+    "src": "/images/golden-beast3.jpg",
     "title": "Ancient Spirit Return",
     "price": "4.61 ETH"
   },
   {
-    "src": "../public/images/golden-beast4.jpg",
+    "src": "/images/golden-beast4.jpg",
     "title": "Greed Fox Galaxy",
     "price": "3.21 ETH"
   },
   {
-    "src": "../public/images/golden-beast5.jpg",
+    "src": "/images/golden-beast5.jpg",
     "title": "Guard Emperor",
     "price": "5.91 ETH"
   },
   {
-    "src": "../public/images/golden-beast6.jpg",
+    "src": "/images/golden-beast6.jpg",
     "title": "Queen Golden Baby Dragon",
     "price": "15 ETH"
   }
