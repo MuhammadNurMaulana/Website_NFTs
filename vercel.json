@@ -13,6 +13,14 @@
       "dest": "/"
     },
     {
+      "src": "/connect-wallet",
+      "dest": "/"
+    },
+    {
+      "src": "/login",
+      "dest": "/"
+    },
+    {
       "src": "/register",
       "dest": "/"
     },
@@ -21,16 +29,7 @@
       "dest": "/"
     },
     {
-      "src": "/connect-wallet",
-      "dest": "/"
-    },
-    {
       "src": "/forgot-password",
-      "dest": "/"
-    },
-
-    {
-      "src": "/login",
       "dest": "/"
     }
   ]
