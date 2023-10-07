@@ -6,7 +6,6 @@ import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
 import { Market } from "./pages/Market";
 import { Rankings } from "./pages/Rankings";
-import { Wallet } from "./pages/Wallet";
 
 function App() {
   return (
