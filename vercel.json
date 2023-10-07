@@ -21,6 +21,10 @@
       "dest": "/"
     },
     {
+      "src": "/*",
+      "dest": "/"
+    },
+    {
       "src": "/forgot-password",
       "dest": "/"
     }

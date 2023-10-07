@@ -15,7 +15,7 @@ function App() {
       <Route path="/rankings" element={<Rankings />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route path="*" element={<Error404Page />} />
+      <Route path="/*" element={<Error404Page />} />
       <Route path="/forgot-password" element={<ForgotPassword />} />
     </Routes>
   );
