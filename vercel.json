@@ -1,0 +1,37 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/marketplace",
+      "dest": "/"
+    },
+    {
+      "src": "/rankings",
+      "dest": "/"
+    },
+    {
+      "src": "/register",
+      "dest": "/"
+    },
+    {
+      "src": "*",
+      "dest": "/"
+    },
+    {
+      "src": "/connect-wallet",
+      "dest": "/"
+    },
+    {
+      "src": "/forgot-password",
+      "dest": "/"
+    },
+
+    {
+      "src": "/login",
+      "dest": "/"
+    }
+  ]
+}
