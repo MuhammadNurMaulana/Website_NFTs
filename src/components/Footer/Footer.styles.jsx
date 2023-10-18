@@ -7,7 +7,7 @@ export const FooterHeader = () => {
     <div className="px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-12 font-workSans text-sm md:text-lg">
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-[10px] text-sm md:text-xl">
-          <img src="/logo.png" alt="My Logo" className="w-[35px] h-[35px] rounded-full" onContextMenu={(e) => e.preventDefault()} />
+          <img src="/logo.svg" alt="My Logo" className="w-[35px] h-[35px] rounded-full" onContextMenu={(e) => e.preventDefault()} />
           <Link to={"/"} className="font-spaceMono text-2xl md:text-3xl">
             RireNFTs Marketplace
           </Link>

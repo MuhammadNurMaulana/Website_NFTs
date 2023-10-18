@@ -8,7 +8,7 @@ export const NavbarStyles = ({ children }) => {
 const Header = () => {
   return (
     <div className="flex items-center gap-[10px] text-sm md:text-xl">
-      <img src="/logo.png" alt="My Logo" className="w-[35px] h-[35px] rounded-full" />
+      <img src="/logo.svg" alt="My Logo" className="w-[35px] h-[35px] rounded-full" />
       <Link to={"/"} className="font-spaceMono text-lg md:text-xl">
         RireNFTs MarketPlace
       </Link>
